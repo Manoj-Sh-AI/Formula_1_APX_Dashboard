@@ -80,3 +80,10 @@ Auto-load: `http://localhost:5173?year=2025&round=6&auto=1`
 | Space | Play / Pause |
 | ← / → | Step |
 | ↑ | Cycle speed |
+
+## Credits
+
+The core telemetry processing, FastF1 data pipeline, and track geometry logic in this project are adapted from [**f1-race-replay**](https://github.com/IAmTomShaw/f1-race-replay) by [Tom Shaw](https://github.com/IAmTomShaw) — an interactive Formula 1 race visualisation and data analysis tool built with Python. This web dashboard reuses that foundation and extends it with a FastAPI backend and React frontend.
+
+Licensed under the [MIT License](https://github.com/IAmTomShaw/f1-race-replay/blob/main/README.md) in the upstream project.
+
