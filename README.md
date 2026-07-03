@@ -2,6 +2,25 @@
 
 Live race dashboard: **FastF1 → FastAPI (in-memory) → frame-by-frame REST**. No JSON files, no chunk cache on disk.
 
+## Screenshots
+
+### Race Replay
+Track map with live driver positions, timing tower, and per-driver telemetry.
+
+![Race Replay — track map, timing, and telemetry](<images/Screenshot 2026-06-21 042402.png>)
+
+### Strategy & Events
+Tyre stint strategy board and race control event tape.
+
+![Strategy & Events — tyre stints and race control](<images/Screenshot 2026-06-21 042636.png>)
+
+### Live Telemetry
+Engineering charts (speed, gear, throttle, brake), track position mini-map, and weather data.
+
+![Live Telemetry — speed and gear charts](<images/Screenshot 2026-06-21 042803.png>)
+
+![Live Telemetry — throttle and brake charts](<images/Screenshot 2026-06-21 042824.png>)
+
 ## Architecture
 
 ```
